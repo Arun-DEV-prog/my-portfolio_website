@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+ .primary-color{
+     color: #FD6E0A;
+ }
+ .dark-2{
+    color: #474747;
+ }
+ .btn-primary{
+    background-color: #FD6E0A;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+ }
+
+ .header{
+     background-image: url(/images/developer.png),url(/images/header_bg.png);
+     background-repeat: no-repeat;
+     /* background-size: contain; */
+     background-position: top left, bottom right;
+ }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 150px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul{
+     display: flex;
+     text-align: center;
+}
+.banner{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+    
+}
+.banner .banner-greeting{
+     font-size: 30px;
+     font-weight: 600;
+     margin-bottom: 5px;
+}
+.banner .banner-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+.banner .banner-desc{
+    margin: 5px;
+}
+
+.banner .images{
+     width: 580px;
+}
+
+ main{
+   max-width: 1140px;
+   margin: 0 auto;
+   margin-top: 30px;
+} 
+ 
+.secondary-back{
+    background: rgb(255, 248, 243);
+}
+.about{
+   
+    border-radius: 10px;
+     background: rgb(255, 248, 243);
+     padding: 130px 150px;
+     text-align: center;
+    
+}
+.about-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.about-item{
+    position: relative;
+}
+.about-title{
+    margin-top: 1px;
+}
+.text-center{
+    text-align: center;
+}
+
+.section-descrption{
+    width: 700px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.skils-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content:space-around;
+     gap: 24px;
+  
+   align-items: center;
+}
+.skils-container .skils-card{
+    max-width:  160px;
+    height: auto;
+    padding: 30px;
+    border-radius: 5px;
+
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-desx, .experience-subtitle{
+    color: #757575;
+}
+.cv{
+    margin: 30px;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-colum{
+    width: 50%;
+}
+input[type="text"],input[type='email'],footer textarea{
+    height: 36px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 14px;
+    border: none;
+}
